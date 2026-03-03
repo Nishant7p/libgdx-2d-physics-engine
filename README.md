@@ -20,6 +20,18 @@ To design and implement a structured 2D projectile physics system capable of:
 The emphasis was placed on system design, physics logic, and extensibility rather than only gameplay replication.
 
 ---
+## Why This Project
+
+This project demonstrates low-level game systems design, modular physics abstraction, and real-time collision modelling — skills transferable to systems programming, simulation design, and performance-critical software engineering.
+
+It also applies core Object-Oriented Programming (OOP) principles including:
+
+- **Encapsulation** – Entity state (health, position, velocity) is internally managed and protected through controlled interfaces.
+- **Abstraction** – Physics logic, collision handling, and rendering are separated into modular layers.
+- **Inheritance** – Entity hierarchies (Birds, Pigs, Blocks) share common structure while extending specialized behaviors.
+- **Polymorphism** – Runtime behavior varies based on entity type during collision and damage resolution.
+
+The architecture emphasizes maintainability, extensibility, and clear separation of concerns — allowing new mechanics, entities, or physics rules to be integrated without large-scale refactoring.
 
 ## 🎥 Gameplay Demo
 
